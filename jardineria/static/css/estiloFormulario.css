@@ -1,0 +1,17 @@
+body {
+    background-color: lightgreen;
+}
+
+img {
+    width: 100%;
+
+}
+
+hr {
+    background-color: rgb(3, 3, 3);
+}
+
+.clockdate-wrapper {
+    background-color: #709e70;
+    width: 100%;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/estilo.css' %}" rel="stylesheet" >
+    <link href="{% static 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css' %}" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'https://use.fontawesome.com/releases/v5.8.1/css/all.css' %}" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>JardineriaMC</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'img/Icon.png' %}">
+
+</head>
+<body>
+
+
+    <br><br><br>
+
+<!--menu-->
+
+    <div class="container-fluid"  id="container1">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bo" id="mainNav">
+            <a class="navbar-brand" href="#">
+                <img class="container" src="{% static 'img/Icon.png' %}" alt="Logo" style="width:80px;">
+            </a>
+                <div class="container px-4 px-lg-5">
+                    <a class="navbar-brand" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Principal1.html#signup' %}">fundación Plantitas</a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item "><a class="nav-link" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Archivo%20n%C3%BAmero%202.html' %}">| Acerca de |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Archivo%20n%C3%BAmero%203.html' %}">| Catalogo de productos |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#signup">| Contactos |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Formulario.html' %}">| Unetenos |</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>    
+    </div>
+<!--cierre menu-->
+
+
+<!--construimos carrusel-->
+<div class="container-fluid">
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel1" data-slide-to="1"></li>
+        <li data-target="#carousel1" data-slide-to="2"></li>
+        </ol>
+        <!-- diapositivas -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="dblock w-100" src="{% static 'img/maceteroas.jpg' %}" alt="" >
+            <div class="carousel-caption">
+                <h1>Macetas de Madera</h1>
+                <p>Set de macetas rusticas, hechas de madera para una mejor decoracion</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="dblock w-100" src="{% static 'img/materialesBotas.jpg' %}" alt="" >
+                <div class="carousel-caption">
+                    <h3>Macetas Ecologicas</h3>
+                    <p>Macetas hechas a base de material reutilizado</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="dblock w-100" src="{% static 'img/macetas.jpg' %}" alt="" >
+                    <div class="carousel-caption">
+                        <h3>Macetas de Greda</h3>
+                        <p>Maceta de greda, lo cual hace que tu jardin se vea mas colorido pero no saturado para tener una mejor decoracion</p>
+            </div>
+        </div>
+        </div>
+        <!-- botones de desplazamiento a izquierda y derecha -->      
+        <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        
+        </a>
+
+        <a class="carousel-control-next" href="#carousel1" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        
+        </a>
+    </div>
+</div>
+
+  </div>
+</div><!--cierre del carrusel-->
+
+<br><br>   
+    <div class="row gx-0 justify-content-center">
+        <div class="col-lg-6 col-lg-6">
+            <img class="img-fluid mb-3 mb-lg-0 container" src="{% static 'img/tierra-de-hojas.webp' %}" width="200px" height="200px"  alt="..."/>
+        </div>
+        <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+                <h3>Informacion</h3>
+                <p class="text-black mb-0 container">Este va a ser un sitio de compra de materiales de jardinería para 
+                    ayudar a una fundación sin fines de lucro, buscamos entregar el mejor producto posible 
+                    para el cliente y con este sitio web mejorar la compra y aviso,tanto al cliente como al vendedor</p>
+            </div>
+        </div>
+    </div> 
+    <br>
+    <div class="row gx-0 justify-content-center">
+        <div class=" col-lg-6 col-lg-6">
+            <img class="img container" src="{% static 'img/fotojardin.jpg' %}" width="100px" height="400px" alt="..." /></div>
+            
+        <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h3>Regar las plantas</h3>
+                    <p>Usualmente, las plantas en exteriores se deben regar, al menos, una vez por semana, pero el ciclo 
+                        puede variar dependiendo de la especie, las condiciones climáticas y los niveles de evaporación que 
+                        presente el área donde tenemos el jardín. Por lo tanto, es prudente pedir la mejor asesoría al respecto, contactanos
+                        por vía telefónica o contactanos por vía email, o acercate a nuestra tienda más cercana con algún asociado de jardinería.</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <br>
+
+    <footer class="footer" id="signup">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <h3 class="footer-titulo">Contáctanos</h3>
+                    <ul class="footer-contactos">
+                        <li><i class="fas fa-map-marker-alt"></i> Dirección: Av. Esq. Blanca 501, Maipú</li>
+                        <li><i class="fas fa-phone"></i> Telefono: 555-323-423</li>
+                        <li><i class="fas fa-envelope"></i> Correo: JardinMC.NOTCH@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="footer-titulo">Nuestras redes</h3>
+                    <ul class="footer-redes">
+                        <li><a href="https://www.facebook.com/" class="fab fa-facebook" target="_blank"></a></li>
+                        <li><a href="https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a></li>
+                        <li><a href="https://www.twitter.com/" class="fab fa-twitter" target="_blank"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="footer-copy">
+                    <p>@copyright Derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+
+</body>
+</html>
+{% endblock %}

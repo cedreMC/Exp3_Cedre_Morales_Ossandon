@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/CssArchivo3.css' %}" rel="stylesheet">
+    <link href="{% static 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css' %}" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'https://use.fontawesome.com/releases/v5.8.1/css/all.css' %}" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>JardineriaMC</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'img/Icon.png' %}">
+</head>
+
+<body>
+    <!--menu-->
+
+
+    <div class="container-fluid"  id="container1">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bo" id="mainNav">
+            <a class="navbar-brand" href="#">
+                <img class="container" src="{% static 'img/Icon.png' %}" alt="Logo" style="width:80px;">
+            </a>
+                <div class="container px-4 px-lg-5">
+                    <a class="navbar-brand" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Principal1.html#signup' %}">fundación Plantitas</a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item "><a class="nav-link" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Archivo%20n%C3%BAmero%202.html' %}">| Acerca de |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Archivo%20n%C3%BAmero%203.html' %}">| Catalogo de productos |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#signup">| Contactos |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Formulario.html' %}">| Unetenos |</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>    
+    </div>
+    <!--cierre menu-->
+    <br><br><br><br>
+    
+    <div class="container-fluid">
+        <h1 class="container">Catalogo de Productos</h1>
+    </div><br>
+
+    <div class="red">
+        <div class="container-fluid">
+            <div class="row align-item-start" id="#row1">
+
+                <div class="col col1" style="background-color:#b1e0b0;">
+                    <div class="container text-center">
+                        <br>                        
+                        <img src="{% static 'img/venta/venta2.webp' %}"  height="300px"> <br><br>
+                        <h2>Tijera de Jardineria</h2>
+                        <h5>$4.990</h5>
+                        <p class="container ">Tijera de jardineria, con exelentes materiales y un buen agarre.</p>
+                    </div>
+                </div>
+
+                <div class="col col2" style="background-color:#b1e0b0;">
+                    <div class="container text-center">
+                        <br>                        
+                        <img src="{% static 'img/venta/venta5.jpg' %}"  height="350px"> <br>
+                        <h2>Set de jardineria N°1</h2>
+                        <h5>$15.990</h5> 
+                        <p>Set de 10 piezas y 8 maceteros biodegradable.</p>                   
+                    </div>
+                </div>
+
+            </div>
+        </div> <br>
+
+        <div class="container-fluid">
+            <div class="row align-item-start" id="#row1">
+
+                <div class="col col1" style="background-color:#b1e0b0;">
+                    <div class="container text-center">
+                        <br>                        
+                        <img src="{% static 'img/venta/venta6.jpg' %}"  height="300px"> <br><br>
+                        <h2>Pack de Flores Lavanda</h2>
+                        <h5>$3.990</h5>
+                        <p class="container-fluid text-center">Pack para plantar de flor Lavanda, variedad de colores.</p>
+                    </div>
+                </div>
+
+                <div class="col col2" style="background-color:#b1e0b0;">
+                    <div class="container text-center">
+                        <br>                        
+                        <img src="{% static 'img/venta/venta7.jpg' %}"  height="300px"> <br><br>
+                        <h2>Set de jardineria N°2</h2>
+                        <h5>$8.990</h5> 
+                        <p class="container-fluid text-center">Set de jardineria con un rastrillo pequeño y un pala pequeña mas 3 maceteros de greda.</p>                   
+                    </div>
+                </div>
+
+            </div>
+        </div> <br>
+
+        <div class="container-fluid">
+            <div class="row align-item-start" id="#row1">
+
+                <div class="col col1" style="background-color:#b1e0b0;">
+                    <div class="container text-center">
+                        <br>                        
+                        <img src="{% static 'img/venta/venta8.jpg' %}"  height="350px"> <br>
+                        <h2>Set de jardineria N°3</h2>
+                        <h5>$6.990</h5>
+                        <p class="container-fluid text-center">Set de una pala y un rastrillo.</p>
+                    </div>
+                </div>
+
+                <div class="col col2" style="background-color:#b1e0b0;">
+                    <div class="container text-center">
+                        <br>                        
+                        <img src="{% static 'img/venta/venta10.jpg' %}"  height="350px"> <br>
+                        <h2>Kid de niños</h2>
+                        <h5>$5.990</h5> 
+                        <p class="container-fluid text-center">Kid para perqueños jardineros, trae una pala, trastrillo y una escoba estrecha.</p>                   
+                    </div>
+                </div>
+
+            </div>
+        </div> <br>
+
+        <div class="container-fluid">
+            <div class="row align-item-start" id="#row1">
+
+                <div class="col col1" style="background-color:#b1e0b0;">
+                    <div class="container text-center">
+                        <br>                        
+                        <img src="{% static 'img/venta/venta12.jpg' %}"  height="300px"> <br>
+                        <h2>Tijeras de mano</h2>
+                        <h5>$4.990</h5>
+                        <p class="container text-center">Tijeras de mano, practica y facil de manipular.</p>
+                    </div>
+                </div>
+
+                <div class="col col2" style="background-color:#b1e0b0;">
+                    <div class="container text-center">
+                        <br>                        
+                        <img src="{% static 'img/venta/venta16.jpg' %}"  height="300px"> <br>
+                        <h2>Gorro de Jardineria</h2>
+                        <h5>$11.990</h5> 
+                        <p class="container text-center">Gorro de jardineria, materiales resistentes e imperniable aontra agua, comodo y practico.</p>                   
+                    </div>
+                </div>
+
+            </div>
+        </div> <br>
+
+        
+
+        
+        
+   
+
+    </div>
+
+    
+
+
+
+
+<footer class="footer" id="signup">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h3 class="footer-titulo">Contáctanos</h3>
+                <ul class="footer-contactos">
+                    <li><i class="fas fa-map-marker-alt"></i> Dirección: Av. Esq. Blanca 501, Maipú</li>
+                    <li><i class="fas fa-phone"></i> Telefono: 555-323-423</li>
+                    <li><i class="fas fa-envelope"></i> Correo: JardinMC.NOTCH@gmail.com</li>
+                 </ul>
+            </div>
+             <div class="col-md-4">
+                <h3 class="footer-titulo">Nuestras redes</h3>
+                <ul class="footer-redes">
+                    <li><a href="https://www.facebook.com/" class="fab fa-facebook" target="_blank"></a></li>
+                     <li><a href="https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a></li>
+                    <li><a href="https://www.twitter.com/" class="fab fa-twitter" target="_blank"></a></li>
+                 </ul>
+              </div>
+        
+         </div>
+        <div class="row justify-content-center">
+            <div class="footer-copy">
+                <p>@copyright Derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+</body>
+</html>
+{% endblock %}

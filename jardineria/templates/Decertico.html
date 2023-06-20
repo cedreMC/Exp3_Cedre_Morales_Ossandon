@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/estilo.css' %}" rel="stylesheet" >
+    <link href="{% static 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css' %}" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'https://use.fontawesome.com/releases/v5.8.1/css/all.css' %}" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="{% static 'css/estiloFormulario.css' %}">
+    <title>JardineriaMC</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'img/Icon.png' %}">
+</head>
+<body>
+
+    <!--menu-->
+    <div class="container-fluid"  id="container1">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bo" id="mainNav">
+            <a class="navbar-brand" href="#">
+                <img class="container" src="{% static 'img/Icon.png' %}" alt="Logo" style="width:80px;">
+            </a>
+                <div class="container px-4 px-lg-5">
+                    <a class="navbar-brand" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Principal1.html#signup' %}">fundación Plantitas</a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item "><a class="nav-link" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Archivo%20n%C3%BAmero%202.html' %}">| Acerca de |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Archivo%20n%C3%BAmero%203.html' %}">| Catalogo de productos |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#signup">| Contactos |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'file:///D:/Archivos/Escritorio/App%20U/Visual%20estude%20code/Exp1_cedre_morale-main/Formulario.html' %}">| Unetenos |</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>    
+    </div>
+<!--cierre menu-->
+<br><br><br><br>
+
+    <div >
+        <div class="container">
+            <img class="container-fluid text-center"   src="{% static 'img/home-design.jpg' %}"  > <br><br>
+        </div>
+    </div>
+
+
+    <br><br>   
+    <div class="row gx-0 justify-content-center">
+        <div class="col-lg-6 col-lg-6">
+            <a href="{% static 'https://articulo.mercadolibre.cl/MLC-917816984-cuarzo-granulado-rosado-suave-formato-1-kg-_JM#position=7&search_layout=stack&type=item&tracking_id=0790a0f0-318c-4f6b-9c2e-15d9a4399f7b' %}">
+            <img class="img-fluid mb-3 mb-lg-0 container" src="{% static 'img/cuarzo.png' %}" width="100px" height="100px"  alt="..."/>
+            </a>
+        </div>
+        <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+                <h3>Cuarzo rosa</h3>
+                <p class="text-black mb-0 container">Estas piedras de curzo rosado le dara mas sofisticacion a su jardin 
+                    y lucira mas limpio este mismo ya que es cuarzo al ser un materia muy resistente y liso con solo regar
+                por encima el curzo esta botara toda su mugre.</p><br>
+                <p>Tambien al ser Curazo rosa le ayudara al momento de quere combinar esta area de su jardin, ya que le dara ese
+                    color decertico el cual estamos buscando, es bastante conjugable con las demas tonalidades del jardin.
+                </p>
+            </div>
+        </div>
+    </div> 
+    <br>
+    <div class="row gx-0 justify-content-center">
+        <div class=" col-lg-6 col-lg-6">
+            <a href="{% static 'https://articulo.mercadolibre.cl/MLC-604753957-minisucus-para-eventos-especiales-_JM#position=8&search_layout=stack&type=item&tracking_id=6c613229-82c1-40d3-8978-8ab725355661' %}">
+            <img class="img container" src="{% static 'img/captusNuevos.jpg' %}" width="100px" height="400px" alt="..." /></div>
+            </a>   
+        <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                    <h3>Captus</h3>
+                    <p>Estos captus son perfectos para pomplementar tu jardin devido a la gran variedad que proporcionamos,
+                        tenemos para todos los guston.</p>
+                    <br><p>Tenemos un compromiso con usted, los captus creceran fuertes y grandes, sin importar en las condiciones que 
+                        se encuentren, ya que estos captus son plantados y criados en ambientes totalmente aptos hasta la etapa en al cual 
+                        son adquiridos, ya en esta etapa es casi imposible que se muera ya que como dije anteriormente esta diseñados para 
+                        aguantar todo tipo de clima.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> <br>
+
+    <div class="container text-center" >
+        <h3>Te fue de utilidad esta idea para tu jardin? si <input type="radio" id="rsi" name="programar" value="SI"  /> no <input type="radio" id="rno" name="programar" value="NO" /></h3>
+        <input class="btn btn-success  text-center" type="button" onclick="okey()" value="Danos tu opinion"></input>
+    </div>  <br>
+    
+    <script>
+        function okey(){
+            alert("Muchas gracias por tu opinion, esto nos sirve para mejorar cada dia ma en nuestra paguina.");
+        }
+    </script>
+
+
+    <footer class="footer" id="signup">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <h3 class="footer-titulo">Contáctanos</h3>
+                    <ul class="footer-contactos">
+                        <li><i class="fas fa-map-marker-alt"></i> Dirección: Av. Esq. Blanca 501, Maipú</li>
+                        <li><i class="fas fa-phone"></i> Telefono: 555-323-423</li>
+                        <li><i class="fas fa-envelope"></i> Correo: JardinMC.NOTCH@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="footer-titulo">Nuestras redes</h3>
+                    <ul class="footer-redes">
+                        <li><a href="https://www.facebook.com/" class="fab fa-facebook" target="_blank"></a></li>
+                        <li><a href="https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a></li>
+                        <li><a href="https://www.twitter.com/" class="fab fa-twitter" target="_blank"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="footer-copy">
+                    <p>@copyright Derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
+{% endblock %}
